@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.UUID;
 
+@Deprecated
 @RequestMapping("/api/v1/customer")
 @RestController
 public class CustomerController {
